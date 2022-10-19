@@ -9,6 +9,11 @@
 		<spring.version>4.3.10.RELEASE</spring.version>
 		<freemarker.version>2.3.23</freemarker.version>
 	</properties>
+	<properties>
+    		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   		 <maven.compiler.source>1.8</maven.compiler.source>
+    		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 	<groupId>com.sheefee</groupId>
 	<artifactId>simple-sso</artifactId>
@@ -79,6 +84,7 @@
 				<artifactId>spring-context-support</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+	
 
 			<dependency>
 				<groupId>javax.servlet</groupId>
